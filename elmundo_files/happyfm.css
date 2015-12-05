@@ -1,0 +1,62 @@
+/* Css patrocinio Happy FM */
+
+#cabecera .patrocinio{width:168px;height:54px;padding-left:5px;position:absolute;top:-25px;right:8px;z-index:5;overflow:hidden;}
+div.patrocinio_cabecera{height:54px;overflow:hidden;position:absolute;right: 15px;top: 47px;width:168px;z-index:3; cursor:pointer;}
+
+#nav_herramientas{right:185px;z-index:4!important; top: 13px !important;}
+#nav_secundaria{padding-right:165px;z-index:1!important; top:5px; }
+#nav_busqueda {top: 68px;}
+
+
+/* Pop up */
+body.popup { margin:0; padding:0;overflow-x:hidden; overflow-y: hidden; width:314px;}
+#contenedor-happyfm {float: left;
+    height: 120px;
+    padding: 10px;
+    position: relative;
+    width: 294px;}
+#contenedor-happyfm h1.logo{float:left; clear:both; margin:0;height:44px; width:294px;}
+#contenedor-happyfm h1.logo a{ display:block; margin:0; padding:0; border:none;}
+#contenedor-happyfm h1.logo a img{ border:none;}
+
+#contenedor-happyfm .reproductor{float:left;background:url(http://estaticos.elmundo.es/elmundo/iconos/v4.x/v4.05/happyfm/bg_reproductor.png) no-repeat; width:294px; height:59px;}
+
+#contenedor-happyfm #reproductor-html5{float:left;height:16px; width:250px; position:relative; top:21px; left:20px;}
+#contenedor-happyfm #reproductor-html5 audio{float:left;height:16px;}
+#contenedor-happyfm #reproductor-flash{ height:16px; width:250px; position:relative; top:21px; left:20px;}
+
+#contenedor-happyfm .directo{background:url(http://estaticos.elmundo.es/elmundo/iconos/v4.x/v4.05/happyfm/escucha_directo.png) no-repeat; width:151px; height:28px; display:block; position:absolute; bottom:10px; right:34px;}
+
+
+body.popup .publicidad_300 {float: left;margin: 0 0 10px !important;position: relative;z-index: 40;  padding: 0 8px;position: relative;width: 303px;}  
+body.popup .publicidad_300 table, .publicidad_300 th, .publicidad_300 td {background-color: white !important;padding: 0;}
+body.popup .publicidad_300 table {float: left;}
+
+body.popup tbody {
+    display: table-row-group;
+    vertical-align: middle;
+}
+body.popup body.minieditores table, td, tr {
+    border-collapse: separate;
+    border-spacing: 0;
+    color: #FFF;
+}
+
+body.popup .publicidad_300 table, .publicidad_300 th, .publicidad_300 td {
+    background-color: white !important;
+    padding: 0;
+}
+
+body.popup .publicidad td {
+    background: #DDD;
+}
+
+/* Reproductor blog Happy FM */
+
+.modulo.reproductor-blog{}
+.modulo.reproductor-blog .reproductor{float:left;background:url(http://estaticos.elmundo.es/elmundo/iconos/v4.x/v4.05/happyfm/bg_reproductor_blog.png) no-repeat;height: 39px;
+    padding-left: 15px;
+    padding-top: 20px;
+    width: 268px;}
+
+#contenido .modulo.reproductor-blog img{float:left; width:100%; margin:0; background:#fff; padding:0; border:none; cursor:pointer;}

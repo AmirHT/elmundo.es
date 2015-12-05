@@ -1,0 +1,918 @@
+@charset "UTF-8";
+
+/* Estilos generales */
+
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,form,fieldset,a 
+{
+    margin: 0;
+    padding: 0;
+	text-decoration:none;
+    color:rgb(5,75,120);
+}
+
+ul,ol,li 
+{
+    list-style: none;
+}
+
+a img 
+{
+    border: 0;
+}
+
+body 
+{
+    color: rgb(100, 100, 100);
+    font-family: arial, serif;
+    font-size: 0.9em;
+    padding-top: 15px;
+    width: 992px;
+    margin: 0 auto;
+	
+}
+
+p{
+	color:black;
+}
+
+p.strong{
+	
+	color:rgb(150,0,55);
+}
+
+
+/* Menú de navegación principal */
+
+#nav_principal
+{
+	
+	clear:both;
+    position: relative;
+    background: #11547f url(images/bg_navprincipal.gif) repeat-x 0 0;
+    border-bottom: 1px solid #0a4666;
+    width: 1000px;
+    padding: 0;
+}
+
+#nav_principal ul.principal
+{
+    height: 25px;
+}
+
+#nav_principal ul.principal li
+{
+    display: inline-block;
+}
+
+#nav_principal ul.principal li a
+{
+    color: #ffffff;
+    font-size: 12px;
+    background: url(images/separador_nav_principal.png) no-repeat right center;
+    padding: 6px 6px 6px 6px;
+    height: 24px;
+    font-weight: bold;
+}
+
+#nav_principal ul.principal li a:hover
+{
+    background: #536372 url(images/bg_navprincipal.gif) repeat-x left center;
+}
+
+.principal ul.principal li
+{
+    display: inline-block;
+}
+
+#nav_principal p
+{
+    position: absolute;
+    top: 0px;
+    z-index: 300;
+    padding-top: 0 0 0 12px;
+    color: #357195;
+    font-size: 11px;
+}
+
+/* Menún de navegación secundario (ESPAÑA) */
+
+#nav_principal li ul.espana
+{
+    background: #97b6c9 url(images/bg_navsub.png) repeat-x;
+    position: absolute;
+    left: 110px;
+    top: 26px;
+    height: 22px;
+    float: left;
+    width: 885px;
+    padding-left: 5px;
+}
+
+#nav-principal li ul.espana li
+{
+    margin-top: 0;
+    padding-top: 0;
+    background-color: red;
+}
+
+#nav_principal li ul.espana li a
+{
+    color: #ffffff;
+    padding: 0px 10px;
+    font-weight: normal;
+    font-size: 11px;
+    text-transform: none;
+    cursor: pointer;
+    background: none;
+    display: inline-block;
+    margin: 0;
+}
+
+#nav_principal li ul.espana li a:hover
+{
+    background: none;
+    text-decoration: underline;
+}
+
+/* DETALLE FLECHA EDICIÓN ESPAÑA */
+
+#nav_principal p.secundario
+{   
+    position: absolute;
+    left: 0;
+    color: #bdd9e7;
+    font-weight: normal;
+    background: url(images/bg_edicion.png) repeat-x left bottom;
+    line-height: 23px;
+    top: 25px;
+    padding-left: 10px;
+}
+
+#nav_principal p.secundario strong
+{
+    background: url(images/bg_edicion_activa.png) no-repeat right center;
+    height: 23px;
+    padding: 4px 17px 4px 0;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+
+
+/* Barra superior */
+
+#nav_barrasuperior
+{
+    position: absolute;
+    width: 1000px;
+    padding: 0;
+	margin-top: -115px;
+	padding-bottom:10px;
+}
+
+#nav_barrasuperior nav{
+	display: inline-block;
+	
+}
+
+#nav_barrasuperior ul
+{
+    color: #ffffff;
+    padding: 0px 10px;
+    font-weight: normal;
+    font-size: 11px;
+    text-transform: none;
+    cursor: pointer;
+    background: none;
+    display: inline-block;
+}
+
+#nav_barrasuperior ul li
+{
+	display: inline-block;
+	font-size: 12px;
+	padding-left:5px;
+}
+
+#nav_barrasuperior .clasificados li:nth-child(1):before{
+		content: url("images/carrito.png");
+}
+#nav_barrasuperior .clasificados li:nth-child(2):before{
+		content: url("images/vivienda.png");
+}
+#nav_barrasuperior .clasificados li:nth-child(3):before{
+		content: url("images/empleo.png");
+}
+#nav_barrasuperior .clasificados li:nth-child(4):before{
+		content: url("images/motor.png");
+}
+
+
+/* Cabecera */
+
+
+#header {
+	position:relative;
+	margin-top:12px;
+	margin-right:-8px;
+	margin-bottom:-40px;
+	height:108px;
+	background: url("images/bg_cabecera.png");
+}
+#header h1 a{
+    content: url("images/bg_h1.png");
+}
+#header div{
+	display:inline-block;
+}
+#header div:first-child {
+	font-size:10px;
+	float:left;
+}
+
+
+#header div:first-child div{
+	font-size:10px;
+	float:left;
+	padding-left:20px;
+}
+
+#header div:first-child p{
+	display:inline-block;
+}
+
+#header div:nth-child(2) {
+	float:right;
+	position:relative;
+}
+
+#header div:nth-child(3) {
+	float:left;
+	padding-left:80px;
+	position:relative;
+	margin-top: -10px;
+	border: none;
+}
+
+#header fieldset{
+	float: left;
+	display: inline-block;
+	border:none;
+	
+}
+#header fieldset legend{
+	display:none;
+}
+
+#header div:nth-child(3) > p{
+	padding-left: 104px;
+}
+
+#header div:nth-child(3) > p a{
+	background: url("images/bg_navmeteo.png")
+		
+}
+
+#header div:nth-child(3) > p a img{
+	position:relative;
+	top:8px;
+	
+		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Cuerpo */
+
+#main {
+	
+	display: inline-block;
+	margin-top:20px;
+}
+
+#main > div {
+	
+	margin-top: 20px;
+	
+}
+
+
+#main > #noticias {
+	float: left;
+	width:70%;
+}
+
+#noticias em {
+	font-size:13px;
+}
+#noticias em {
+	background: url("images/bubble_peq.gif") ;
+	padding-left: 15px;
+	background-repeat: no-repeat;
+}
+
+#noticias span {
+	display:none;
+}
+
+#noticias ul li{
+	margin-left:40px;
+	list-style-image: url("images/bolillo.gif");
+	font-size: 13px;
+}
+#main > #noticias .col1 {
+	float: left;
+	width: 60%;
+}
+
+#main > #noticias > .col1 p:first-child {
+	color:rgb(150,0,55);
+}
+
+#main > #noticias .articulo {
+	margin-bottom:20px;
+}
+
+#noticias h2 {
+	font-size:30px;
+}
+
+#noticias h3 {
+	font-size:20px;
+}
+
+#noticias  h4 {
+	font-size:20px;
+}
+
+#main > #noticias .col2 {
+	float: left;
+	width: 40%;
+}
+
+#main > #deportes{
+	float: left;
+	width: 30%;
+}
+
+#deportes ul {
+	margin-top:15px;
+}
+
+#deportes .noticia ul li {
+	margin-left:40px;
+	list-style-image: url("images/bolillo.gif");
+}
+
+#deportes > h4{
+	
+	background: url("images/tope_modulos_deportes_col02.gif");
+	padding-top:10px;
+	background-repeat:no-repeat;
+}
+#deportes h4 a{
+	
+	padding-left: 230px;
+}
+
+#main > #deportes .noticia{
+	
+	margin-bottom:20px;
+
+}
+
+#deportes ul li:nth-child(2) p:last-child {
+	background: url("images/tiraav.gif");
+	padding-top:15px;
+	repeat: no-repeat;
+}
+
+#deportes ul li:nth-child(3) p:first-child:before {
+	content: url("images/1349365446_g_1.jpg");
+}
+
+
+
+
+
+
+#main > #destacado{
+	clear: both;
+	background: url("images/fondo_carrusel_elmundoes.jpg");
+	background-repeat: no-repeat;
+	padding-top:15px;
+}
+
+#destacado h3 {
+	padding-left:30px;
+}
+
+#main > #destacado > ul > li{
+	width:20%;
+	float:left;
+}
+
+#destacado dt,dd {
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main > #servicios {
+	clear: both;
+	background: url("images/titulo_servicios.gif");
+	background-repeat: no-repeat;
+	padding-top:5px;
+}
+
+#servicios h3 {
+	padding-left:460px;
+}
+
+#servicios ul {
+    margin-top:60px;
+}
+#main > #servicios ul li{
+	display: inline-block;
+	text-align: center;
+}
+
+
+#servicios ul li:nth-child(1) a{
+    background: url("images/icono_tv_v2.png") 0 0 ;
+    background-repeat: no-repeat;
+    padding-top:43px;
+}
+
+#servicios ul li:nth-child(1) a:hover {
+    background: url("images/icono_tv_v2.png") -0px -60px;
+	background-repeat: no-repeat;
+    padding-top:43px;
+}
+
+
+#servicios ul li:nth-child(2) a{
+    background: url("images/icono_estrenos_v2.png") 0 0 ;
+    background-repeat: no-repeat;
+    padding-top:48px;
+}
+
+#servicios ul li:nth-child(2) a:hover {
+    background: url("images/icono_estrenos_v2.png")-0px -60px;
+    width:45 px;
+    height:45 px;
+	background-repeat: no-repeat;
+	padding-top:48px;
+}
+
+
+#servicios ul li:nth-child(3) a{
+    background: url("images/icono_trafico_v2.png") 0 0 ;
+    width:45px;
+    height:45px;
+    background-repeat: no-repeat;
+    padding-top:43px;
+}
+
+#servicios ul li:nth-child(3) a:hover {
+    background: url("images/icono_trafico_v2.png")-0px -60px;
+    width:45 px;
+    height:45 px;
+	background-repeat: no-repeat;
+	padding-top:43px;
+}
+
+
+#servicios ul li:nth-child(4) a{
+    background: url("images/icono_callejero_v2.png") 0 0 ;
+    width:45px;
+    height:45px;
+    background-repeat: no-repeat;
+    padding-top:43px;
+}
+
+#servicios ul li:nth-child(4) a:hover {
+    background: url("images/icono_callejero_v2.png")-0px -60px;
+    width:45 px;
+    height:45 px;
+	background-repeat: no-repeat;
+	padding-top:43px;
+}
+
+
+#servicios ul li:nth-child(5) a{
+    background: url("images/icono_horoscopo_v2.png") 0 0 ;
+    width:45px;
+    height:45px;
+    background-repeat: no-repeat;
+    padding-top:43px;
+}
+
+#servicios ul li:nth-child(5) a:hover {
+    background: url("images/icono_horoscopo_v2.png")-0px -60px;
+    width:45 px;
+    height:45 px;
+	background-repeat: no-repeat;
+	padding-top:43px;
+}
+
+
+#servicios ul li:nth-child(6) a{
+    background: url("images/icono_tienda.png") 0 0 ;
+    width:45px;
+    height:45px;
+    background-repeat: no-repeat;
+    padding-top:43px;
+}
+
+#servicios ul li:nth-child(6) a:hover {
+    background: url("images/icono_tienda.png")-0px -60px;
+    width:45 px;
+    height:45 px;
+	background-repeat: no-repeat;
+	padding-top:43px;
+}
+
+
+#servicios ul li:nth-child(7) a{
+    background: url("images/icono_diccionario_v2.png") 0 0 ;
+    width:45px;
+    height:45px;
+    background-repeat: no-repeat;
+    padding-top:43px;
+}
+
+#servicios ul li:nth-child(7) a:hover {
+    background: url("images/icono_diccionario_v2.png")-0px -60px;
+    width:45 px;
+    height:45 px;
+	background-repeat: no-repeat;
+	padding-top:48px;
+}
+
+
+#servicios ul li:nth-child(8) a{
+    background: url("images/icono_escuela_periodismo.png") 0 0 ;
+    width:45px;
+    height:45px;
+    background-repeat: no-repeat;
+    padding-top:43px;
+}
+
+#servicios ul li:nth-child(8) a:hover {
+    background: url("images/icono_escuela_periodismo.png")-0px -60px;
+    width:45 px;
+    height:45 px;
+	background-repeat: no-repeat;
+	padding-top:43px;
+}
+
+
+#servicios ul li:nth-child(9) a{
+    background: url("images/icono_traductor_v2.png") 0 0 ;
+    width:45px;
+    height:45px;
+    background-repeat: no-repeat;
+    padding-top:43px;
+}
+
+#servicios ul li:nth-child(9) a:hover {
+    background: url("images/icono_traductor_v2.png")-0px -60px;
+    width:45 px;
+    height:45 px;
+	background-repeat: no-repeat;
+	padding-top:43px;
+}
+
+
+#servicios ul li:nth-child(10) a{
+    background: url("images/icono_calendar_v2.png") 0 0 ;
+    width:45px;
+    height:45px;
+    background-repeat: no-repeat;
+    padding-top:43px;
+}
+
+#servicios ul li:nth-child(10) a:hover {
+    background: url("images/icono_calendar_v2.png")-0px -60px;
+    width:45 px;
+    height:45 px;
+	background-repeat: no-repeat;
+	padding-top:43px;
+}
+
+
+#servicios ul li:nth-child(11) a{
+    background: url("images/icono_promo_v2.png") 0 0 ;
+    width:45px;
+    height:45px;
+    background-repeat: no-repeat;
+    padding-top:43px;
+}
+
+#servicios ul li:nth-child(11) a:hover {
+    background: url("images/icono_promo_v2.png")-0px -60px;
+    width:45 px;
+    height:45 px;
+	background-repeat: no-repeat;
+	padding-top:43px;
+}
+
+
+#servicios ul li:nth-child(12) a{
+    background: url("images/icono_ebooks.png") 0 0 ;
+    width:45px;
+    height:45px;
+    background-repeat: no-repeat;
+    padding-top:43px;
+}
+
+#servicios ul li:nth-child(12) a:hover {
+    background: url("images/icono_ebooks.png")-0px -60px;
+    width:45 px;
+    height:45 px;
+	background-repeat: no-repeat;
+	padding-top:44px;
+}
+
+
+#servicios ul li:nth-child(13) a{
+    background: url("images/icono_sorteos_v2.png") 0 0 ;
+    width:45px;
+    height:45px;
+    background-repeat: no-repeat;
+    padding-top:43px;
+}
+
+#servicios ul li:nth-child(13) a:hover {
+    background: url("images/icono_sorteos_v2.png")-0px -60px;
+    width:45 px;
+    height:45 px;
+	background-repeat: no-repeat;
+	padding-top:43px;
+}
+
+
+#servicios ul li:nth-child(14) a{
+    background: url("images/icono_pags_v3.png") 0 0 ;
+    width:45px;
+    height:45px;
+    background-repeat: no-repeat;
+    padding-top:43px;
+}
+
+#servicios ul li:nth-child(14) a:hover {
+    background: url("images/icono_pags_v3.png")-0px -60px;
+    width:45 px;
+    height:45 px;
+	background-repeat: no-repeat;
+	padding-top:43px;
+}
+
+
+
+
+
+ 
+ 
+#secundario {
+	
+	margin-top:30px;
+}
+ 
+#main > #secundario > .columna1{
+	width:65%;
+	float:left;
+}
+#secundario h5 {
+	font-size: 16px;
+}
+#main > #secundario > .columna1  li {
+	display: inline-block;
+}
+
+#main > #secundario > .columna1  li img {
+	padding-top:10px;
+}
+
+#main > #secundario > .columna1  li .titular{
+	display:none;
+}
+
+
+#main > #secundario > .columna1  li:nth-child(1) img {
+	background:#DA003E;
+}
+#main > #secundario > .columna1  li:nth-child(2) img {
+	background:#00AADD;
+}
+#main > #secundario > .columna1  li:nth-child(3) img {
+	background:#DA00B2;
+}
+#main > #secundario > .columna1  li:nth-child(4) img {
+	background:#DA7400;
+}
+#main > #secundario > .columna1  li:nth-child(5) img {
+	background:#D600DA;
+}
+
+
+#main > #secundario > #columna2 div{
+	
+	width : 35%;
+	display: inline-block;
+    
+	
+}
+
+#main > #secundario > #columna2 > div > ol{
+    
+    display: list-item;
+    
+}
+#columna2{
+	padding-top:17px;
+}
+#columna2 > div > ol li{
+	list-style: decimal;
+	margin-left:40px;
+}
+
+#columna2 > div > ol li:nth-child(2n-1){
+		
+	background:#E7EDFF;
+}
+
+
+#columna2 div h5{
+    background:#383838;
+}
+
+#columna2 > div:first-child h5 a{
+    content:url("images/lomejor_marca.gif");
+	padding-left:50px;
+}
+
+#columna2 > div:last-child h5 a{
+    content:url("images/lomejor_expansion.gif");
+	padding-left:50px;
+}
+
+#columna2 > div:last-child {
+	margin-top:40px;
+}
+
+
+
+
+
+#tiendas h3 {
+	padding-left:30px;
+}
+
+
+
+#main > #secundario > #tiendas{
+	clear: both;
+	margin-top:50px;
+	background:url("images/fondo_carrusel_elmundoes.jpg");
+	background-repeat:no-repeat;
+	padding-top:15px;
+	
+}
+
+#main > #secundario > #tiendas li{
+
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+#enlaces .externos ul li  {
+	float:left;
+
+}
+
+#enlaces .externos li:nth-child(2n+1) {
+	clear:top;
+	font-size:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main > #secundario > #enlaces .de_interes{
+	margin-top:50px;
+}
+
+#main > #secundario > #enlaces .de_interes > li{
+	display: inline-block;
+	float:left;
+	width:24%;
+	margin: 1px 1px 1px 1px;
+	background:#E7EDFF;
+	height:100px;
+}
+
+
+#main > #secundario > #enlaces .de_interes h5{
+    color:black;
+    font-size:13px;
+	margin-bottom:5px;
+    
+}
+
+#main > #secundario > #enlaces .de_interes ul li {
+	display: list-item;
+    padding-right: 5px;
+}
+
+#enlaces .de_interes ul li:after, .unidad_editorial li :after{
+ 
+ background-image: url("images/bolillo_pie.gif") 0 0;
+ float:right;
+ width: 10px;
+ height:10 px;
+    
+ 
+}
+
+
+#main > #secundario > #enlaces  .unidad_editorial {
+    margin-top:185px;
+}
+
+#main > #secundario > #enlaces  .unidad_editorial h5{
+    color:black;
+}
+
+#main > #secundario > #enlaces > .unidad_editorial li{
+	width:20%;
+	display: list-item;
+	float:left;
+}
+
+
+#footer div{
+	
+	margin-top:50px;
+	display: inline-block;
+}
+
+#footer ul.informacion li {
+	display: inline-block;
+}
+
+#footer ul.colaboradores li {
+	display: inline-block;
+}

@@ -1,0 +1,2 @@
+Admeta.init('http://atemda.com/ViewMaterial.ashx');
+Admeta.unsold('portada300250:1:3d700e','<iframe id="AM_US35376_1" src="http://s.atemda.com/UnidadEditorial/300x250/300x250.html" SCROLLING="no" width="300px" height="250px" FRAMEBORDER="0"></iframe>',1,'AM_US35376_1','http://s.atemda.com/UnidadEditorial/300x250/300x250.html');Admeta.noAdAvailable('portada300250:1:3d700e',1);Admeta.Script.loaded();

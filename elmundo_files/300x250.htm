@@ -1,0 +1,63 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"></head><body style="padding:0px; margin:0px">
+<div id="tagid"><a href="http://www.ocholeguas.com/" target="_blank" rel="nofollow"><img src="300x250_data/300x250.jpg" border="0" height="250" width="300"></a></div>
+<script type="text/javascript">
+	(function()
+	{
+		var w=300;
+		var h=250;
+		var swf="http://s.atemda.com/UnidadEditorial/"+w+"x"+h+"/"+w+"x"+h+".swf";
+		var gif="http://s.atemda.com/UnidadEditorial/"+w+"x"+h+"/"+w+"x"+h+".gif";
+		var jpg="http://s.atemda.com/UnidadEditorial/"+w+"x"+h+"/"+w+"x"+h+".jpg";
+		var bc = "";
+		var swfCt="http://www.detiendasporelmundo.es/productos/sector-lady-master-cronometro/p-5004/?utm_source=elmundo.es&utm_medium=banner%2B300x250&utm_campaign=reloj%2Bsector%2Blady%2Bmaster";
+		var jpgCt="http://www.ocholeguas.com/";
+		var params="clickTag="+escape(swfCt);
+		var s=Math.floor((Math.random()*2)+1);
+		
+		if (s>1&&(function()
+		{
+			var cv=5;
+			var plugin=(navigator.mimeTypes && navigator.mimeTypes['application/x-shockwave-flash'])?
+												navigator.mimeTypes['application/x-shockwave-flash'].enabledPlugin:0;
+			if (plugin){
+				var words=navigator.plugins['Shockwave Flash'].description.split(" ");
+
+				for (i=0;i<words.length;++i){
+					if (isNaN(parseInt(words[i]))) continue;
+					if(words[i]>=cv) return true;
+				}
+			}
+			else if (navigator.userAgent.toLowerCase().indexOf("msie")!=-1){
+				for (i=10;i>0;i--){
+					try{
+						var flash=new ActiveXObject('ShockwaveFlash.ShockwaveFlash.'+i);
+						return true;
+					}catch(e){}
+				}
+			}
+			return false;
+		})())
+		{
+			bc='<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" id="vfmov" width="'+w+'" height="'+h+'" align="middle">\n';
+			bc+='   <param name="allowScriptAccess" value="always">\n';
+			bc+='   <param name="movie" value="'+swf+'?'+params+'">\n';
+			bc+='   <param name="quality" value="high">\n';
+			bc+='   <param name="wmode" value="opaque">\n';
+			bc+='   <embed src="'+swf+'?'+params+'" width="'+w+'" height="'+h+'" quality=high name="vfmov" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="opaque" outline="none"></embed>\n';
+			bc+='</object>';
+		}
+		else
+		{
+			bc='<a href="'+(s>1?swfCt:jpgCt)+'" target="_blank" rel="nofollow"><img src="'+(s>1?gif:jpg)+'" width="'+w+'" height="'+h+'" border="0"></a>';
+		}
+		
+		document.getElementById("tagid").innerHTML = bc;
+	}
+	)()
+</script>
+<noscript>
+	<a href="http://www.ocholeguas.com/" target="_blank" rel="nofollow"><img src="http://s.atemda.com/UnidadEditorial/300x250/300x250.jpg" width="300" height="250" border="0"></a>
+</noscript>
+
+</body></html>
