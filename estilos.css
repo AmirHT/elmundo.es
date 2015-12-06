@@ -843,9 +843,6 @@ p.strong{
 	border-left: none;
 }
 
-
-
-
 #main > #secundario > #enlaces .de_interes{
 	margin-top:20px;
 }
@@ -893,31 +890,11 @@ padding-left:10px;
 }
 
 
-
-
-
-
 #enlaces .unidad_editorial ul li{
 	display: inline-block;
 	width:19%;
 	margin:0 5px 5px 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #footer div{
@@ -932,4 +909,37 @@ padding-left:10px;
 
 #footer ul.colaboradores li {
 	display: inline-block;
+}
+
+
+#poplogin {
+	font-size: 12px;
+	
+}
+#poplogin .submit{
+	float: right;
+}
+#id_username{
+	float:right;
+}
+
+#login_cerrar{
+	content: url("images/ventana_usuario_cerrar.png");
+	padding-left:287px;
+	margin-bottom:0px;
+}
+#poplogin h4 {
+	padding-left: 10px;
+	margin-bottom:-30px;
+	font-size:18px;
+}
+
+
+#poplogin fieldset {
+	border:none;
+	background:grey;
+	padding: 50px 20px 50px 20px;
+}
+#poplogin legend{
+	display:none;
 }
