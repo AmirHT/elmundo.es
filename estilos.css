@@ -818,53 +818,55 @@ p.strong{
 
 
 
-
-
-
-
-
-#enlaces .externos ul li  {
-	float:left;
-
-}
-
-#enlaces .externos li:nth-child(2n+1) {
-	clear:top;
-	font-size:15px;
+#enlaces .externos {
+	
+	background:#E7EDFF;
 }
 
 
+#enlaces .externos li  {
+	display:inline-block;
+	width:183px;
+	margin-left:40px;
+	border-left:  1px ridge rgba(255,0,0,0.1);
+	padding: 5px 5px 5px 5px;
+}
 
+#enlaces .externos li:nth-child(1)  {
+	margin-left:0px;
+	border-left: none;
+	
+}
 
-
-
-
-
-
-
-
-
-
-
-
+#enlaces .externos li:nth-child(5)  {
+	margin-left:0px;
+	border-left: none;
+}
 
 
 
 
 #main > #secundario > #enlaces .de_interes{
-	margin-top:50px;
+	margin-top:20px;
 }
 
+#enlaces .de_interes{
+	
+	background:#E7EDFF;
+	height:120px;
+}
 #main > #secundario > #enlaces .de_interes > li{
 	display: inline-block;
 	float:left;
-	width:24%;
+	width:23%;
 	margin: 1px 1px 1px 1px;
-	background:#E7EDFF;
 	height:100px;
 }
-
-
+#enlaces .de_interes > li:nth-child(n+2){
+border-left: 1px ridge rgba(255,0,0,0.1);
+padding-bottom:19px;
+padding-left:10px;
+}
 #main > #secundario > #enlaces .de_interes h5{
     color:black;
     font-size:13px;
@@ -875,32 +877,47 @@ p.strong{
 #main > #secundario > #enlaces .de_interes ul li {
 	display: list-item;
     padding-right: 5px;
+	
+	font-size:12px;
 }
 
-#enlaces .de_interes ul li:after, .unidad_editorial li :after{
- 
- background-image: url("images/bolillo_pie.gif") 0 0;
- float:right;
- width: 10px;
- height:10 px;
-    
- 
-}
 
 
 #main > #secundario > #enlaces  .unidad_editorial {
-    margin-top:185px;
+    margin-top:30px;
+	font-size:12px;
 }
 
 #main > #secundario > #enlaces  .unidad_editorial h5{
     color:black;
 }
 
-#main > #secundario > #enlaces > .unidad_editorial li{
-	width:20%;
-	display: list-item;
-	float:left;
+
+
+
+
+
+#enlaces .unidad_editorial ul li{
+	display: inline-block;
+	width:19%;
+	margin:0 5px 5px 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #footer div{
