@@ -281,21 +281,6 @@ p.strong{
 		
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Cuerpo */
 
 #main {
@@ -310,8 +295,8 @@ p.strong{
 	
 }
 
-
-#main > #noticias {
+/* Noticias */
+#noticias {
 	float: left;
 	width:70%;
 }
@@ -334,16 +319,16 @@ p.strong{
 	list-style-image: url("images/bolillo.gif");
 	font-size: 13px;
 }
-#main > #noticias .col1 {
+#noticias .col1 {
 	float: left;
 	width: 60%;
 }
 
-#main > #noticias > .col1 p:first-child {
+#noticias > .col1 p:first-child {
 	color:rgb(150,0,55);
 }
 
-#main > #noticias .articulo {
+#noticias .articulo {
 	margin-bottom:20px;
 }
 
@@ -359,12 +344,13 @@ p.strong{
 	font-size:20px;
 }
 
-#main > #noticias .col2 {
+#noticias .col2 {
 	float: left;
 	width: 40%;
 }
 
-#main > #deportes{
+/* Deportes */
+#deportes{
 	float: left;
 	width: 30%;
 }
@@ -389,7 +375,7 @@ p.strong{
 	padding-left: 230px;
 }
 
-#main > #deportes .noticia{
+#deportes .noticia{
 	
 	margin-bottom:20px;
 
@@ -406,11 +392,9 @@ p.strong{
 }
 
 
+/* Destacado */
 
-
-
-
-#main > #destacado{
+#destacado{
 	clear: both;
 	background: url("images/fondo_carrusel_elmundoes.jpg");
 	background-repeat: no-repeat;
@@ -421,7 +405,7 @@ p.strong{
 	padding-left:30px;
 }
 
-#main > #destacado > ul > li{
+#destacado > ul > li{
 	width:20%;
 	float:left;
 }
@@ -430,25 +414,8 @@ p.strong{
 	display:none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#main > #servicios {
+/* Servicios */
+#servicios {
 	clear: both;
 	background: url("images/titulo_servicios.gif");
 	background-repeat: no-repeat;
@@ -462,11 +429,11 @@ p.strong{
 #servicios ul {
     margin-top:60px;
 }
-#main > #servicios ul li{
+
+#servicios ul li{
 	display: inline-block;
 	text-align: center;
 }
-
 
 #servicios ul li:nth-child(1) a{
     background: url("images/icono_tv_v2.png") 0 0 ;
@@ -479,7 +446,6 @@ p.strong{
 	background-repeat: no-repeat;
     padding-top:43px;
 }
-
 
 #servicios ul li:nth-child(2) a{
     background: url("images/icono_estrenos_v2.png") 0 0 ;
@@ -650,64 +616,68 @@ p.strong{
 }
 
 
+/* Secundario */
+
 #secundario {
 	
 	margin-top:30px;
 }
  
-#main > #secundario > .columna1{
+#secundario > .columna1{
 	width:65%;
 	float:left;
 }
 #secundario h5 {
 	font-size: 16px;
 }
-#main > #secundario > .columna1  li {
+#secundario > .columna1  li {
 	display: inline-block;
 }
 
-#main > #secundario > .columna1  li img {
+#secundario > .columna1  li img {
 	padding-top:10px;
 }
 
-#main > #secundario > .columna1  li .titular{
+#secundario > .columna1  li .titular{
 	display:none;
 }
 
-
-#main > #secundario > .columna1  li:nth-child(1) img {
+#secundario > .columna1  li:nth-child(1) img {
 	background:#DA003E;
 }
-#main > #secundario > .columna1  li:nth-child(2) img {
+
+#secundario > .columna1  li:nth-child(2) img {
 	background:#00AADD;
 }
-#main > #secundario > .columna1  li:nth-child(3) img {
+
+#secundario > .columna1  li:nth-child(3) img {
 	background:#DA00B2;
 }
-#main > #secundario > .columna1  li:nth-child(4) img {
+
+#secundario > .columna1  li:nth-child(4) img {
 	background:#DA7400;
 }
-#main > #secundario > .columna1  li:nth-child(5) img {
+
+#secundario > .columna1  li:nth-child(5) img {
 	background:#D600DA;
 }
 
-
-#main > #secundario > #columna2 div{
-	
+/* Columna 2 del panel secundario */
+#columna2 div{	
 	width : 35%;
 	display: inline-block;
-    
-	
 }
 
-#main > #secundario > #columna2 > div > ol{
+#columna2 > div > ol{
     
     display: list-item;
     
 }
+
 #columna2{
 	padding-top:17px;
 }
+
 #columna2 > div > ol li{
 	list-style: decimal;
 	margin-left:40px;
@@ -717,7 +687,6 @@ p.strong{
 		
 	background:#E7EDFF;
 }
-
 
 #columna2 div h5{
     background:#383838;
@@ -737,17 +706,13 @@ p.strong{
 	margin-top:40px;
 }
 
-
-
-
+/* Tiendas */
 
 #tiendas h3 {
 	padding-left:30px;
 }
 
-
-
-#main > #secundario > #tiendas{
+#tiendas{
 	clear: both;
 	margin-top:50px;
 	background:url("images/fondo_carrusel_elmundoes.jpg");
@@ -756,12 +721,13 @@ p.strong{
 	
 }
 
-#main > #secundario > #tiendas li{
+#tiendas li{
 
 	display: inline-block;
 }
 
 
+/* Enlaces externos */
 
 #enlaces .externos {
 	
@@ -788,7 +754,8 @@ p.strong{
 	border-left: none;
 }
 
-#main > #secundario > #enlaces .de_interes{
+/* Enlaces de interes */
+#enlaces .de_interes{
 	margin-top:20px;
 }
 
@@ -797,40 +764,42 @@ p.strong{
 	background:#E7EDFF;
 	height:120px;
 }
-#main > #secundario > #enlaces .de_interes > li{
+
+#enlaces .de_interes > li{
 	display: inline-block;
 	float:left;
 	width:23%;
 	margin: 1px 1px 1px 1px;
 	height:100px;
 }
+
 #enlaces .de_interes > li:nth-child(n+2){
 border-left: 1px ridge rgba(255,0,0,0.1);
 padding-bottom:19px;
 padding-left:10px;
 }
-#main > #secundario > #enlaces .de_interes h5{
+
+#enlaces .de_interes h5{
     color:black;
     font-size:13px;
 	margin-bottom:5px;
     
 }
 
-#main > #secundario > #enlaces .de_interes ul li {
+#enlaces .de_interes ul li {
 	display: list-item;
     padding-right: 5px;
 	
 	font-size:12px;
 }
 
-
-
-#main > #secundario > #enlaces  .unidad_editorial {
+/* Enlaces unidad editorial */
+#enlaces .unidad_editorial {
     margin-top:30px;
 	font-size:12px;
 }
 
-#main > #secundario > #enlaces  .unidad_editorial h5{
+#enlaces .unidad_editorial h5{
     color:black;
 }
 
@@ -841,7 +810,7 @@ padding-left:10px;
 	margin:0 5px 5px 0;
 }
 
-
+/* Pie */
 #footer div{
 	
 	margin-top:50px;
@@ -856,30 +825,30 @@ padding-left:10px;
 	display: inline-block;
 }
 
-
+/* Refistro */
 #poplogin {
 	font-size: 12px;
 	
 }
 
-
-#login_cerrar{
-	content: url("images/ventana_usuario_cerrar.png");
-	padding-left:287px;
-	margin-bottom:0px;
-}
 #poplogin h4 {
 	padding-left: 10px;
 	margin-bottom:-30px;
 	font-size:18px;
 }
 
-
 #poplogin fieldset {
 	border:none;
 	background:rgb(192,192,192);
 	padding: 50px 6px 50px 6px;
 }
+
 #poplogin legend{
 	display:none;
+}
+
+#login_cerrar{
+	content: url("images/ventana_usuario_cerrar.png");
+	padding-left:287px;
+	margin-bottom:0px;
 }
