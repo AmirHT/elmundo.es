@@ -916,12 +916,7 @@ padding-left:10px;
 	font-size: 12px;
 	
 }
-#poplogin .submit{
-	float: right;
-}
-#id_username{
-	float:right;
-}
+
 
 #login_cerrar{
 	content: url("images/ventana_usuario_cerrar.png");
@@ -937,8 +932,8 @@ padding-left:10px;
 
 #poplogin fieldset {
 	border:none;
-	background:grey;
-	padding: 50px 20px 50px 20px;
+	background:rgb(192,192,192);
+	padding: 50px 6px 50px 6px;
 }
 #poplogin legend{
 	display:none;
