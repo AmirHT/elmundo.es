@@ -89,7 +89,7 @@ p.strong{
     position: absolute;
     top: 0px;
     z-index: 300;
-    padding-top: 0 0 0 12px;
+    padding: 0 0 0 12px;
     color: #357195;
     font-size: 11px;
 }
@@ -398,7 +398,7 @@ p.strong{
 #deportes ul li:nth-child(2) p:last-child {
 	background: url("images/tiraav.gif");
 	padding-top:15px;
-	repeat: no-repeat;
+	background-repeat: no-repeat;
 }
 
 #deportes ul li:nth-child(3) p:first-child:before {
@@ -489,8 +489,6 @@ p.strong{
 
 #servicios ul li:nth-child(2) a:hover {
     background: url("images/icono_estrenos_v2.png")-0px -60px;
-    width:45 px;
-    height:45 px;
 	background-repeat: no-repeat;
 	padding-top:48px;
 }
@@ -498,16 +496,12 @@ p.strong{
 
 #servicios ul li:nth-child(3) a{
     background: url("images/icono_trafico_v2.png") 0 0 ;
-    width:45px;
-    height:45px;
     background-repeat: no-repeat;
     padding-top:43px;
 }
 
 #servicios ul li:nth-child(3) a:hover {
     background: url("images/icono_trafico_v2.png")-0px -60px;
-    width:45 px;
-    height:45 px;
 	background-repeat: no-repeat;
 	padding-top:43px;
 }
@@ -515,16 +509,12 @@ p.strong{
 
 #servicios ul li:nth-child(4) a{
     background: url("images/icono_callejero_v2.png") 0 0 ;
-    width:45px;
-    height:45px;
     background-repeat: no-repeat;
     padding-top:43px;
 }
 
 #servicios ul li:nth-child(4) a:hover {
     background: url("images/icono_callejero_v2.png")-0px -60px;
-    width:45 px;
-    height:45 px;
 	background-repeat: no-repeat;
 	padding-top:43px;
 }
@@ -532,16 +522,12 @@ p.strong{
 
 #servicios ul li:nth-child(5) a{
     background: url("images/icono_horoscopo_v2.png") 0 0 ;
-    width:45px;
-    height:45px;
     background-repeat: no-repeat;
     padding-top:43px;
 }
 
 #servicios ul li:nth-child(5) a:hover {
     background: url("images/icono_horoscopo_v2.png")-0px -60px;
-    width:45 px;
-    height:45 px;
 	background-repeat: no-repeat;
 	padding-top:43px;
 }
@@ -549,16 +535,12 @@ p.strong{
 
 #servicios ul li:nth-child(6) a{
     background: url("images/icono_tienda.png") 0 0 ;
-    width:45px;
-    height:45px;
     background-repeat: no-repeat;
     padding-top:43px;
 }
 
 #servicios ul li:nth-child(6) a:hover {
     background: url("images/icono_tienda.png")-0px -60px;
-    width:45 px;
-    height:45 px;
 	background-repeat: no-repeat;
 	padding-top:43px;
 }
@@ -566,16 +548,12 @@ p.strong{
 
 #servicios ul li:nth-child(7) a{
     background: url("images/icono_diccionario_v2.png") 0 0 ;
-    width:45px;
-    height:45px;
     background-repeat: no-repeat;
     padding-top:43px;
 }
 
 #servicios ul li:nth-child(7) a:hover {
     background: url("images/icono_diccionario_v2.png")-0px -60px;
-    width:45 px;
-    height:45 px;
 	background-repeat: no-repeat;
 	padding-top:48px;
 }
@@ -583,16 +561,12 @@ p.strong{
 
 #servicios ul li:nth-child(8) a{
     background: url("images/icono_escuela_periodismo.png") 0 0 ;
-    width:45px;
-    height:45px;
     background-repeat: no-repeat;
     padding-top:43px;
 }
 
 #servicios ul li:nth-child(8) a:hover {
     background: url("images/icono_escuela_periodismo.png")-0px -60px;
-    width:45 px;
-    height:45 px;
 	background-repeat: no-repeat;
 	padding-top:43px;
 }
@@ -600,16 +574,12 @@ p.strong{
 
 #servicios ul li:nth-child(9) a{
     background: url("images/icono_traductor_v2.png") 0 0 ;
-    width:45px;
-    height:45px;
     background-repeat: no-repeat;
     padding-top:43px;
 }
 
 #servicios ul li:nth-child(9) a:hover {
     background: url("images/icono_traductor_v2.png")-0px -60px;
-    width:45 px;
-    height:45 px;
 	background-repeat: no-repeat;
 	padding-top:43px;
 }
@@ -617,16 +587,12 @@ p.strong{
 
 #servicios ul li:nth-child(10) a{
     background: url("images/icono_calendar_v2.png") 0 0 ;
-    width:45px;
-    height:45px;
     background-repeat: no-repeat;
     padding-top:43px;
 }
 
 #servicios ul li:nth-child(10) a:hover {
     background: url("images/icono_calendar_v2.png")-0px -60px;
-    width:45 px;
-    height:45 px;
 	background-repeat: no-repeat;
 	padding-top:43px;
 }
@@ -634,16 +600,12 @@ p.strong{
 
 #servicios ul li:nth-child(11) a{
     background: url("images/icono_promo_v2.png") 0 0 ;
-    width:45px;
-    height:45px;
     background-repeat: no-repeat;
     padding-top:43px;
 }
 
 #servicios ul li:nth-child(11) a:hover {
     background: url("images/icono_promo_v2.png")-0px -60px;
-    width:45 px;
-    height:45 px;
 	background-repeat: no-repeat;
 	padding-top:43px;
 }
@@ -651,16 +613,12 @@ p.strong{
 
 #servicios ul li:nth-child(12) a{
     background: url("images/icono_ebooks.png") 0 0 ;
-    width:45px;
-    height:45px;
     background-repeat: no-repeat;
     padding-top:43px;
 }
 
 #servicios ul li:nth-child(12) a:hover {
     background: url("images/icono_ebooks.png")-0px -60px;
-    width:45 px;
-    height:45 px;
 	background-repeat: no-repeat;
 	padding-top:44px;
 }
@@ -668,16 +626,12 @@ p.strong{
 
 #servicios ul li:nth-child(13) a{
     background: url("images/icono_sorteos_v2.png") 0 0 ;
-    width:45px;
-    height:45px;
     background-repeat: no-repeat;
     padding-top:43px;
 }
 
 #servicios ul li:nth-child(13) a:hover {
     background: url("images/icono_sorteos_v2.png")-0px -60px;
-    width:45 px;
-    height:45 px;
 	background-repeat: no-repeat;
 	padding-top:43px;
 }
@@ -685,26 +639,17 @@ p.strong{
 
 #servicios ul li:nth-child(14) a{
     background: url("images/icono_pags_v3.png") 0 0 ;
-    width:45px;
-    height:45px;
     background-repeat: no-repeat;
     padding-top:43px;
 }
 
 #servicios ul li:nth-child(14) a:hover {
     background: url("images/icono_pags_v3.png")-0px -60px;
-    width:45 px;
-    height:45 px;
 	background-repeat: no-repeat;
 	padding-top:43px;
 }
 
 
-
-
-
- 
- 
 #secundario {
 	
 	margin-top:30px;
