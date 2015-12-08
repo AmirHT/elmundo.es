@@ -328,7 +328,7 @@ p.strong{
 	color:rgb(150,0,55);
 }
 
-#noticias .articulo {
+#noticias article {
 	margin-bottom:20px;
 }
 
