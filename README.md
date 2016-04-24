@@ -1,3 +1,3 @@
 # elmundo.es
 
-Pagina web de elmundo.es, como trabajo para la asignatura Software y Estandares para la Web.
+Página web de elmundo.es, como trabajo para la asignatura Software y Estándares para la Web.
